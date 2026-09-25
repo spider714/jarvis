@@ -1,0 +1,37 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Access System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>FACE ACCESS SYSTEM</h1>
+
+        <div class="camera-box">
+            <video id="camera" autoplay playsinline></video>
+            <canvas id="canvas" style="display:none;"></canvas>
+        </div>
+
+        <div id="status" class="status">
+            Starting camera...
+        </div>
+
+        <div id="owner"></div>
+
+        <a href="/register" class="register-btn">
+            Register New Owner
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+```
